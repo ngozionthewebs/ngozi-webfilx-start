@@ -4,13 +4,14 @@
 
 :root {
   --gradient: linear-gradient(90deg, #4AB2C2, #470069, #F5F5F5);
+
 }
 
 body {
   font-family: basic-sans, sans-serif;
   font-size: 1.125em;
   line-height: 1.6;
-  color: #333;
+  color: black;
   background: #ddd;
   background-size: 300%;
   background-image: var(--gradient);
@@ -24,15 +25,47 @@ body {
 }
 /* NAV */
 
+
 .nav-link{
-    color: #FFFFFF;
+    color: #FFFFFF;  
 }
+
+.navbar-nav{
+    margin-left: 30px;
+}
+
+.navbar-brand{
+    margin-left: 20px;
+
+}
+
+
+.search{
+    
+    background-color: transparent;
+    border-radius: 20px;
+    border: 0.5px solid white;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    color: #FFF;
+    margin-right:57px;
+}
+
+.search:focus{
+    outline: 0;
+    background-color: #5b306f;
+}
+
+.search::placeholder{
+    color: rgb(227, 226, 226);
+}
+
 
 
 /* Filters */
 
 .heading{
-    margin-top: 40px;
+    margin-top: 80px;
 }
 
 .heading h1{
@@ -67,164 +100,85 @@ button{
 
 /* movies */
 
-.movie-1{
-    width: 395px;
-    height: 234px;
-    background-image: url(/assets/movie-1.png);
-    background-position: center;
-    background-size: cover;
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.movie{
+    width: 300px;
+    border-radius: 5px;
+    border-radius: 3px;
+    box-shadow: 0.2px 4px 5px rgba(0,0,0,0.1);
+    background-color: #9169a3;
+    position: relative;
+    overflow: hidden;
+    font-family: 'Urbanist', sans-serif;
+    margin: 1rem;
+
 }
 
 
-.movie-2{
-    width: 395px;
-    height: 234px;
-    background-image: url(/assets/movie-2.png);
-    background-position: center;
-    background-size: cover;
+.movie img{
+    width: 100%;
+}
+
+.movie-info{
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem 1rem;
+    letter-spacing:0.5px;
+} 
+
+.movie-info h3{
+    font-weight: 700;
+}
+
+.movie-info span{
+    background-color: #470069;
+    color: white;
+    padding: 0.25rem 0.5rem; 
+    border-radius: 3px;
+    font-weight: bold;
 
 }
 
 
-.movie-3{
-    width: 395px;
-    height: 234px;
-    background-image: url(/assets/movie-3.png);
-    background-position: center;
-    background-size: cover;
+.movie-info span.green{
+    color: lightgreen;
 }
 
-.movie-4{
-    width: 395px;
-    height: 234px;
-    background-image: url(/assets/movie-4.png);
-    background-position: center;
-    background-size: cover;;
+.movie-info span.orange{
+    color: orange;
+}
+
+.movie-info span.red{
+    color: red;
 }
 
 
-.movie-5{
-    width: 395px;
-    height: 234px;
-    background-image: url(/assets/movie-5.png);
-    background-position: center;
-    background-size: cover;
+
+
+.overview{
+
+    position: absolute;  
+    left:0; 
+    right:0; 
+    bottom:0; 
+    background-color: #FFF;
+    padding: 1rem;
+    max-height: 100%;
+    font-weight: 500;
+    transform: translateY(101%);
+    transition: transform 0.3s ease-in;
+
 }
 
-
-.movie-6{
-    width: 395px;
-    height: 234px;
-    background-image: url(/assets/movie-6.png);
-    background-position: center;
-    background-size: cover;
-}
-
-
-.movie-7{
-    width: 395px;
-    height: 234px;
-    background-image: url(/assets/movie-7.png);
-    background-position: center;
-    background-size: cover;
-}
-
-
-.movie-8{
-    width: 395px;
-    height: 234px;
-    background-image: url(/assets/movie-8.png);
-    background-position: center;
-    background-size: cover;
-}
-
-
-.movie-9{
-    width: 395px;
-    height: 234px;
-    background-image: url(/assets/movie-9.png);
-    background-position: center;
-    background-size: cover;
-}
-
-.movie-10{
-    width: 395px;
-    height: 234px;
-    background-image: url(/assets/movie-10.png);
-    background-position: center;
-    background-size: cover;
-}
-
-
-.movie-11{
-    width: 395px;
-    height: 234px;
-    background-image: url(/assets/movie-11.png);
-    background-position: center;
-    background-size: cover;
-}
-
-
-.movie-12{
-    width: 395px;
-    height: 234px;
-    background-image: url(/assets/movie-12.png);
-    background-position: center;
-    background-size: cover;
-}
-
-
-.movie-13{
-    width: 395px;
-    height: 234px;
-    background-image: url(/assets/movie-13.png);
-    background-position: center;
-    background-size: cover;;
-}
-
-
-.movie-14{
-    width: 395px;
-    height: 234px;
-    background-image: url(/assets/movie-14.png);
-    background-position: center;
-    background-size: cover;
-}
-
-
-.movie-15{
-    width: 395px;
-    height: 234px;
-    background-image: url(/assets/movie-15.png);
-    background-position: center;
-    background-size: cover;
-}
-
-
-.movie-16{
-    width: 395px;
-    height: 234px;
-    background-image: url(/assets/movie-16.png);
-    background-position: center;
-    background-size: cover;
-}
-
-
-.movie-17{
-    width: 395px;
-    height: 234px;
-    background-image: url(/assets/movie-17.png);
-    background-position: center;
-    background-size: cover;
-}
-
-
-.movie-18{
-    width: 395px;
-    height: 234px;
-    background-image: url(/assets/movie-18.png);
-    background-position: center;
-    background-size: cover;
+.movie:hover .overview{
+    transform:translateY(0);
 }
 
 

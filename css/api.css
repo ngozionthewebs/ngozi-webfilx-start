@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Gradient */
+
+:root {
+  --gradient: linear-gradient(90deg, #4AB2C2, #470069, #F5F5F5);
+}
+
+body {
+  font-family: basic-sans, sans-serif;
+  font-size: 1.125em;
+  line-height: 1.6;
+  color: #333;
+  background: #ddd;
+  background-size: 300%;
+  background-image: var(--gradient);
+  animation: bg-animation 25s infinite alternate;
+}
+
+@keyframes bg-animation {
+  0% {background-position: left}
+  50% {background-position: right}
+  100% {background-position: left}
+}
+
+/* NAV */
+
+.nav-link{
+    color: #FFFFFF;
+}
+
+
+/* Filters */
+
+.heading{
+    margin-top: 40px;
+}
+
+.heading h1{
+    font-family: 'Urbanist', sans-serif;
+    color: #FFF;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 20px;
+
+}
+
+.btn-group{
+    margin-left: 250px;
+    margin-top: -100px;
+}
+
+
+/*Buttons */
+
+button{
+    background-color:#FFFFFF;
+}
+
+.btn-outline-primary {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+
+/* movies */
+
+.movie-1{
+    width: 395px;
+    height: 234px;
+    
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+
+.movie-2{
+    width: 395px;
+    height: 234px;
+    background-image: url(/assets/movie-2.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+
+}
+
+
+.movie-3{
+    width: 395px;
+    height: 234px;
+    background-image: url(/assets/movie-3.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.movie-4{
+    width: 395px;
+    height: 234px;
+    background-image: url(/assets/movie-4.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+
+.movie-5{
+    width: 395px;
+    height: 234px;
+    background-image: url(/assets/movie-5.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+
+.movie-6{
+    width: 395px;
+    height: 234px;
+    background-image: url(/assets/movie-6.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+
+.movie-7{
+    width: 395px;
+    height: 234px;
+    background-image: url(/assets/movie-7.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+
+.movie-8{
+    width: 395px;
+    height: 234px;
+    background-image: url(/assets/movie-8.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+
+.movie-9{
+    width: 395px;
+    height: 234px;
+    background-image: url(/assets/movie-9.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.movie-10{
+    width: 395px;
+    height: 234px;
+    background-image: url(/assets/movie-10.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+
+.movie-11{
+    width: 395px;
+    height: 234px;
+    background-image: url(/assets/movie-11.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+
+.movie-12{
+    width: 395px;
+    height: 234px;
+    background-image: url(/assets/movie-12.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+
+.movie-13{
+    width: 395px;
+    height: 234px;
+    background-image: url(/assets/movie-13.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+
+.movie-14{
+    width: 395px;
+    height: 234px;
+    background-image: url(/assets/movie-14.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+
+.movie-15{
+    width: 395px;
+    height: 234px;
+    background-image: url(/assets/movie-15.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+
+.movie-16{
+    width: 395px;
+    height: 234px;
+    background-image: url(/assets/movie-16.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+
+.movie-17{
+    width: 395px;
+    height: 234px;
+    background-image: url(/assets/movie-17.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+
+.movie-18{
+    width: 395px;
+    height: 234px;
+    background-image: url(/assets/movie-18.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+
+
+/* footer */
+
+footer{
+    
+    width: 1445px;
+    height: 345px;
+    background-color: #470069;
+}
+
+
+
+
+
+
+
+
+
+
