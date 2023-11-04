@@ -47,19 +47,14 @@
 
     <section>
 
-        <div class="container">
+        <div id="filters">
+            <div class="filter">Action</div>
+            <div class="filter">Adventure</div>
+            <div class="filter">Drama</div>
+            <div class="filter">Comedy</div>
 
-            <div class="heading">
 
-                <h1>Movies</h1>
-    
-                <div class="btn-group" role="group" aria-label="Basic outlined example bg-body-light" >
-                    <button type="button" class="btn btn-outline-primary">Horror</button>
-                    <button type="button" class="btn btn-outline-primary">Comedy</button>
-                    <button type="button" class="btn btn-outline-primary">Romance</button>
-                    <button type="button" class="btn btn-outline-primary">Animation</button>
-                  </div>
-            </div>
+        </div>
 
 
     <!-- ------------------------------------------------------------------------------------------------ -->
@@ -67,29 +62,38 @@
 
     <main id="main">  
             
-            <div class="movies">
+            <div class="movies" data-movie-id="1">
 
                 <div class="row">
 
                     <div class="col-4">
                         <div class="movie">
 
+                            <div class="movieImg">
+                            
                             <img src="/assets/movie-1.png" alt="image">
-            
+                          
+
+                            </div>    
 
                             <div class="movie-info">
                                 <h3>Movie Title</h3>
                                 <!-- rating -->
                                 <span class="green">5.0</span>
+                                
+                                
                             </div>
                 
                             <div class="overview">
+
+                                
 
                                 <h3>Overview</h3>
                                 Lorem, ipsum dolor sit amet consectetur 
                                 adipisicing elit. Eius at consequatur cumque fugit
                                 officiis consequuntur id blanditiis. Laboriosam, non est
                                 tempore perferendis, veritatis impedit inventore iste velit incidunt omnis laborum!
+                                
                 
                             </div>
                         </div>

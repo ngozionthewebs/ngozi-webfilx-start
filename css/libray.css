@@ -64,6 +64,39 @@ body {
 
 /* Filters */
 
+#filters{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+}
+
+.filter{
+    font-family: 'Urbanist', sans-serif;
+    color: white;
+    padding: 10px 20px;
+    background-color: #5b306f;
+    border-radius: 20px;
+    margin: 5px;
+    display:inline-block;
+    cursor: pointer;
+}
+
+.filter:hover{
+    cursor: pointer;
+    background-color: #9169a3;
+
+}
+
+.filter.active{
+    background-color: rebeccapurple;
+}
+
+/**************************************************************************/
+
+
 .heading{
     margin-top: 80px;
 }
@@ -116,6 +149,7 @@ main{
     overflow: hidden;
     font-family: 'Urbanist', sans-serif;
     margin: 1rem;
+    cursor: pointer;
 
 }
 
@@ -124,6 +158,12 @@ main{
     width: 100%;
 }
 
+.btn {
+    background-color: #470069;
+    margin-top: -1000px;
+    border: none;
+    margin-left: 5px;
+}
 .movie-info{
     color: #FFF;
     display: flex;
@@ -171,7 +211,7 @@ main{
     background-color: #FFF;
     padding: 1rem;
     max-height: 100%;
-    font-weight: 500;
+    font-weight: 300;
     transform: translateY(101%);
     transition: transform 0.3s ease-in;
 
@@ -180,6 +220,9 @@ main{
 .movie:hover .overview{
     transform:translateY(0);
 }
+
+
+
 
 
 
