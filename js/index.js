@@ -189,7 +189,7 @@ function showMovies(data) {
             ${overview};
         </div>
         <button class="btn btn-primary" onclick="seeMore(this, ${JSON.stringify(movie)})">See More</button>
-        <button class="btn btn-secondary">Add to Favorites</button>
+        <button class="btn btn-secondary" >Add to Favorites</button>
         `;
         main.appendChild(movieElement);
     });
@@ -238,5 +238,7 @@ form.addEventListener('submit', (e) => {
 const saveMovieData ={
 
 }
+
+
 
 

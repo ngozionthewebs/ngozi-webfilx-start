@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Gradient */
+
+:root {
+  --gradient: linear-gradient(90deg, #4AB2C2, #470069, #F5F5F5);
+
+}
+
+body {
+  font-family: basic-sans, sans-serif;
+  font-size: 1.125em;
+  line-height: 1.6;
+  color: black;
+  background: #ddd;
+  background-size: 300%;
+  background-image: var(--gradient);
+  animation: bg-animation 25s infinite alternate;
+}
+
+@keyframes bg-animation {
+  0% {background-position: left}
+  50% {background-position: right}
+  100% {background-position: left}
+}
+/* NAV */
+
+
+.nav-link{
+    color: #FFFFFF;  
+}
+
+.navbar-nav{
+    margin-left: 30px;
+}
+
+.navbar-brand{
+    margin-left: 20px;
+
+}
+
+
+.search{
+    
+    background-color: transparent;
+    border-radius: 20px;
+    border: 0.5px solid white;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    color: #FFF;
+    margin-right:57px;
+}
+
+.search:focus{
+    outline: 0;
+    background-color: #5b306f;
+}
+
+.search::placeholder{
+    color: rgb(227, 226, 226);
+}
+
+.headings{
+
+   margin-left: 40px;
+   margin-top: 50px;
+   
+}
+.headings h1{
+    color: white;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 700;
+    padding-bottom: 50px;
+    font-size: 64px;
+}
+
+.headings h3{
+    color: white;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+}
+
+/* Watchlist Card */
+
+.watchlist-con{
+    margin-left: 40px;
+    margin-top: 25px;
+    padding-top: 100px;
+
+}
+
+.movie-info h3{
+    margin-left: 420px;
+    margin-top: -220px;
+    color: white;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.overview{
+    margin-left: 420px;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 300;
+    color: white;
+    margin-top: 30px;
+}
+
+.bin{
+    margin-left: 1160px;
+    margin-top: -120px;
+}
+
+
+
+/* footer */
+
+footer{
+    
+    width: 1445px;
+    height: 345px;
+    background-color: #470069;
+    margin-top: 150px;
+}
+
+
+
+
